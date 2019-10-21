@@ -1,4 +1,4 @@
-# gclouj
+# gcloudclient
 
 Idiomatic Clojure to [https://github.com/GoogleCloudPlatform/gcloud-java](https://github.com/GoogleCloudPlatform/gcloud-java).
 

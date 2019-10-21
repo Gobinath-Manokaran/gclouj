@@ -1,4 +1,4 @@
-package gclouj;
+package gcloudclient;
 
 import com.google.cloud.bigquery.BigQueryOptions;
 

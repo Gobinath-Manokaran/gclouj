@@ -1,4 +1,4 @@
-package gclouj;
+package gcloudclient;
 
 import com.google.cloud.AuthCredentials;
 import com.google.cloud.storage.StorageOptions;

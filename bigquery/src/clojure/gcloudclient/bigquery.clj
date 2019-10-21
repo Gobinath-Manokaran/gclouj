@@ -1,8 +1,8 @@
-(ns gclouj.bigquery
+(ns gcloudclient.bigquery
   (:require [clojure.walk :as walk]
             [clj-time.coerce :as tc])
   (:import [com.google.cloud.bigquery BigQueryOptions BigQuery$DatasetListOption DatasetInfo DatasetId BigQuery$TableListOption StandardTableDefinition TableId BigQuery$DatasetOption BigQuery$TableOption Schema Field Field$Type Field$Mode StandardTableDefinition$StreamingBuffer InsertAllRequest InsertAllRequest$RowToInsert InsertAllResponse BigQueryError BigQuery$DatasetDeleteOption QueryRequest QueryResponse QueryResult JobId Field Field$Type$Value FieldValue FieldValue$Attribute LoadConfiguration BigQuery$JobOption JobInfo$CreateDisposition JobInfo$WriteDisposition JobStatistics JobStatistics$LoadStatistics JobStatus JobStatus$State FormatOptions UserDefinedFunction JobInfo ExtractJobConfiguration LoadJobConfiguration QueryJobConfiguration QueryJobConfiguration$Priority Table BigQuery$QueryResultsOption TableInfo ViewDefinition CsvOptions CopyJobConfiguration]
-           [gclouj BigQueryOptionsFactory]
+           [gcloudclient BigQueryOptionsFactory]
            [com.google.common.hash Hashing]
            [java.util List Collections]
            [java.util.concurrent TimeUnit]))
