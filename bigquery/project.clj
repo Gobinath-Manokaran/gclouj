@@ -1,4 +1,4 @@
-(defproject gcloudclient/bigquery "0.1.2"
+(defproject gcloudclient/bigquery "0.1.3"
   :description "Clojure client to java big query"
   :url "https://github.com/Gobinath-Manokaran/gclouj.git"
   :license {:name "Eclipse Public License"
